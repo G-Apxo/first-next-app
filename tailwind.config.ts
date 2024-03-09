@@ -7,11 +7,38 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      serif: ["Editorial New", "serif"],
+      sans: [
+        "Neue Montreal",
+        "ui-sans-serif",
+        "system-ui",
+        "Segoe UI",
+        "sans-serif",
+      ],
+      retron: ["Retron-2000", "Menlo", "monospace"],
+      monospace: ["monospace"],
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        black: "#2D2D2D",
+        white :"#FFFFFF",
+        green :"#009379",
+        red :"#FF6250",
+        pink :"#F3AFA8",
+        gray :"#F3F3F3",
+        yellow :"#F7D684"
+      },
+      transitionDelay: {
+        0: "0ms",
+      },
+      boxShadow: {
+        autofill: "0 0 0 50px #c7ea26 inset",
+        xl: "0 5px 25px -3px rgba(0 0 0 / 0.1), 0 0 10px -5px rgb(0 0 0 / 0.1)",
+      },
+      transitionProperty: {
+        opacity: "opacity, visibility",
+        transform: "transform, visibility",
       },
     },
   },
