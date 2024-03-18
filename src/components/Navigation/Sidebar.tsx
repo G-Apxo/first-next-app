@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Sidebar = () => {
   return (
-    <div className="h-screen w-[250px] bg-black">
+    <div className="h-screen  w-[250px] bg-black">
       <div className="flex justify-between items-center py-5 flex-col h-full">
         {/*Logo handler */}
         <div className="flex">Logo</div>
